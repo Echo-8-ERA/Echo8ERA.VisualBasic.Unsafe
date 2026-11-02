@@ -1,0 +1,12 @@
+<Project>
+
+  <PropertyGroup>
+
+		<OptionExplicit>On</OptionExplicit>
+		<OptionInfer>On</OptionInfer>
+    <OptionInfer>On</OptionInfer>
+		<OptionStrict>On</OptionStrict>
+		
+  </PropertyGroup>
+	
+</Project>
