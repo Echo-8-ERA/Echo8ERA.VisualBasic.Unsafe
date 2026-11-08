@@ -4,9 +4,12 @@
 
 		<OptionExplicit>On</OptionExplicit>
 		<OptionInfer>On</OptionInfer>
-    <OptionInfer>On</OptionInfer>
 		<OptionStrict>On</OptionStrict>
 		
   </PropertyGroup>
 	
+	<PropertyGroup>
+		<SolutionRoot>$(MSBuildThisFileDirectory)</SolutionRoot>
+	</PropertyGroup>
+
 </Project>
