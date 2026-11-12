@@ -3,6 +3,7 @@
 ''' </summary>
 <NoTransform>
 Public Structure VoidPointer
+	Implements Transformable
 	Private m_Address As UIntPtr
 
 #Region "Operators: Comparison"
