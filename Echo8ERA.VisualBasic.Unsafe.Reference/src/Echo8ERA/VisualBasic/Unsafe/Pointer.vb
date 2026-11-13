@@ -3,6 +3,8 @@
 ''' </summary>
 <NoTransform>
 Public Structure Pointer(Of T)
+	Implements Transformable
+
 	Private m_Address As IntPtr
 
 #Region "Operators: Arithmetic"
