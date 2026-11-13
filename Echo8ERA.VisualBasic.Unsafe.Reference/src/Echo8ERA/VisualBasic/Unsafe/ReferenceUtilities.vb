@@ -24,7 +24,7 @@ Module ReferenceUtilities
 	''' </summary>
 	''' <param name="reference">The reference to change.</param>
 	''' <returns>A reference to the reference allowing it to be used on the left-hand side of an assignment.</returns>
-	Public Function [Set](Of T)(<NoTransform> ByVal reference As Reference(Of T)) As <NoTransform(Depth:=1)> Reference(Of Reference(Of T))
+	Public Function [Set](Of T)(<NoTransform> ByVal reference As Reference(Of T)) As Reference(Of NoTransform(Of Reference(Of T)))
 		Throw DirectCast(Nothing, Exception)
 	End Function
 
